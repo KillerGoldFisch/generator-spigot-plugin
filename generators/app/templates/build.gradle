@@ -1,4 +1,4 @@
-group '<% if (props.namespace) { %><%= props.namespace %>.<% } %>'
+group '<%= props.namespace %>'
 version '1.0.0'
 
 apply plugin: 'java'
