@@ -1,0 +1,5 @@
+.gradle/
+build/
+
+src/main/java/<%= props.namespacepath %>/BuildInfo.java
+src/main/resources/plugin.yml

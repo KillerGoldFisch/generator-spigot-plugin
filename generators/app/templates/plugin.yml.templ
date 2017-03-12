@@ -1,0 +1,13 @@
+name: <% if (props.title) { %><%= props.title %><% } %>
+description: <% if (props.description) { %><%= props.description %><% } %>
+main: <% if (props.namespace) { %><%= props.namespace %>.<% } %>Main
+version: ${version}
+author: <%= props.author %>
+depend: []
+
+<% if (props.title) { %>
+commands:
+  <%= props.title %>:
+    description: <%= props.title %>
+    usage: /<%= props.title %>
+<% } %>
