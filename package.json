@@ -1,6 +1,6 @@
 {
   "name": "generator-spigot-plugin",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A template for a Spigot plugin in java",
   "homepage": "https://github.com/killergoldfisch/generator-spigot-plugin#readme",
   "author": "Kevin Gliewe <kevingliewe@gmail.com> (http://gliewe.net)",
