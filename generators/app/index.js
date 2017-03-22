@@ -99,7 +99,7 @@ module.exports = Generator.extend({
 
     tmpl(this, 'README.md', 'README.md');
 
-    tmpl(this, '.gitignore', '.gitignore');
+    tmpl(this, 'gitignore', '.gitignore');
     tmpl(this, '.editorconfig', '.editorconfig');
 
     tmpl(this, 'build.gradle', 'build.gradle');
